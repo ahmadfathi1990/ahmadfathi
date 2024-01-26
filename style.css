@@ -199,4 +199,19 @@ p {
 .fa-solid {
     font-size: 15px;
 }
+.main-card {
+    width: 45%;
+    margin: auto;
+    text-align: center;
+    background-color: #f0f0f0;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    margin-top: 70px;
+    transition: 0.7s ease;
+}
+.icons {
+    width: 50%;
+    margin: auto;
+    margin-top: 15px;
+}
 }
