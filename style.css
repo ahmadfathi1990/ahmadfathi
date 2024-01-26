@@ -137,7 +137,7 @@ p {
 
 }
 
-@media(max-width:1150px){
+@media(max-width:950px){
     img.my-image {
         width: 100px;
     }   
@@ -177,6 +177,7 @@ h2 {
 }
 
 .icons i {
+    width: 60%;
     margin: 0 5px;
     font-size: 10px;
     color: #000000;
@@ -200,14 +201,9 @@ p {
     font-size: 15px;
 }
 .main-card {
-    width: 45%;
-    margin: auto;
-    text-align: center;
-    background-color: #f0f0f0;
-    padding: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
-    margin-top: 70px;
-    transition: 0.7s ease;
+    width: 90%;
+    margin-top: 50%;
+
 }
 .icons {
     width: 50%;
