@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: rgba(148, 154, 154, 0.763);
+}
+
+header {
+    background-color: rgba(109, 109, 109, 0.683);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.logo {
+    height: 40px;
+    width: 40px;
+    margin-left: 20px;
+    margin-right: 10px;
+}
+
+.site-name {
+    text-decoration: none;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 1.5em;
+}
+
+.main-card {
+    width: 35%;
+    margin: auto;
+    text-align: center;
+    background-color: #f0f0f0;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    margin-top: 35px;
+    transition: 0.7s ease;
+}
+
+.main-card:hover {
+    transform: scale(1.1);
+    background-color: #f0f0f065;
+}
+
+.name-img {
+    width: 80%;
+    margin: auto;
+    align-items: center;
+}
+
+.my-name {
+    font-size: 25px;
+    margin-top: 10px;
+    text-transform: uppercase;
+}
+
+img.my-image {
+    width: 200px;
+    border: 2px solid #0b34ffa3;
+    border-radius: 50%;
+}
+
+span {
+    color: rgba(0, 0, 255, 0.662);
+    font-size: 30px;
+}
+
+h2 {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 12px;
+}
+
+.btn {
+    margin-top: 10px;
+}
+
+.c-v,
+.exp {
+    color: #f0f0f0;
+    background-color: rgba(0, 0, 255, 0.699);
+    text-decoration: none;
+    font-size: 0.8em;
+    font-weight: 600;
+    padding: 10px;
+    border: none;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: all 0.7s ease;
+}
+
+.c-v:hover,
+.exp:hover {
+    background-color: rgb(0, 0, 255);
+    transform: scale(1.1);
+}
+
+.icons {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icons i {
+    margin: 0 10px;
+    font-size: 20px;
+    color: #000000;
+    cursor: pointer;
+}
+
+.icons i:hover {
+    transition: 1s ease;
+    transform: scale(1.5);
+}
