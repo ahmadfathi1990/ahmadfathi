@@ -39,7 +39,7 @@ header {
     width: 35%;
     margin: auto;
     text-align: center;
-    background-color: #f0f0f0;
+    background-color: #f0f0f0 ;
     padding: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
     margin-top: 35px;
@@ -47,7 +47,7 @@ header {
 }
 
 .main-card:hover {
-    transform: scale(1.1);
+    transform: scale(1.05);
     background-color: #f0f0f065;
 }
 
@@ -132,6 +132,278 @@ p {
     font-size: 30px;
     color: #f0f0f0;
 }
+
+
+
+/* --- start -----  CSS code My skills page   */
+
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.title-name {
+     
+    color: rgba(0, 0, 255, 0.614);
+    font-size: 35px;
+    margin-top: 40px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.soft-skills {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    margin-top: 35px;
+    transition: 0.7s ease;
+}
+
+.skill-img {
+    height: 200px;
+    width: 200px;
+    width: 100%;
+}
+
+.first-skill ,
+.second-skill ,
+.third-skill ,
+.fourth-skill {
+    width: 400px;
+    height: 400px;
+    background-color: #f0f0f0;
+    margin-right: 60px;
+    box-shadow: 0 4px 8px rgba(91, 91, 96, 0.662);
+    margin-bottom: 30px;
+    transition: all 0.7s ease;
+}
+
+.soft-skills {
+    margin-bottom: 40px;
+}
+.first-skill:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+    background-color: rgba(0, 0, 255, 0.486);
+    color: #f0f0f0;
+}
+.second-skill:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+    background-color: rgba(0, 0, 255, 0.486);
+    color: #f0f0f0;
+}
+.third-skill:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+    background-color: rgba(0, 0, 255, 0.486);
+    color: #f0f0f0;
+}
+.fourth-skill:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+    background-color: rgba(0, 0, 255, 0.486);
+    color: #f0f0f0;
+}
+
+.first-skill ,
+.second-skill ,
+.third-skill ,
+.fourth-skill,  p {
+font-size: 10px;
+}
+
+.first-skill p {
+    font-size: 9px;
+}
+.skill-drcrip {
+    padding: 20px;
+    text-align: left;
+}
+.horizontal-line {
+
+    border-bottom: 3px solid black; /* Adjust color and thickness as needed */
+    width: 70%;
+    margin: auto;
+}
+
+.hard-skills {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    margin-top: 35px;
+}
+.excel,
+.powerpoint,
+.zoho,
+.googlesheet {
+    width: 80%;
+    margin: auto;
+    background-color: rgba(244, 244, 244, 0.826) ;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    margin-top: 40px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    transition: all 0.5s ease;
+}
+.hardskill-img {
+    border: 3px solid white;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    margin: 20px 20px 20px 20px ;
+}
+.googlesheet{
+    margin-bottom: 40px;
+}
+p {
+    white-space: nowrap;
+    overflow: visible;
+    text-overflow: ellipsis;
+}
+
+.excel p {
+    text-align: left;
+    font-size: 10px;
+    padding: 5px;
+    margin-right: 20px;
+}
+.powerpoint p {
+    text-align: left;
+    font-size: 10px;
+    padding: 5px;
+    font-size: 10px;
+    margin-right: 20px;
+}
+.zoho p {
+    text-align: left;
+    font-size: 10px;
+    padding: 5px;
+    margin-right: 20px;
+}
+.googlesheet p {
+    text-align: left;
+    font-size: 10px;
+    padding: 5px;
+    margin-right: 20px;
+}
+.excel:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+    background-color: rgba(0, 0, 255, 0.486);
+    color: #f0f0f0;
+}
+.powerpoint:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+    background-color: rgba(0, 0, 255, 0.486);
+    color: #f0f0f0;
+}
+.zoho:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+    background-color: rgba(0, 0, 255, 0.486);
+    color: #f0f0f0;
+}
+.googlesheet:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+    background-color: rgba(0, 0, 255, 0.486);
+    color: #f0f0f0;
+}
+
+.hori-2 {
+    display: flex;
+    justify-content: center;
+}
+.horizontal-line2 {
+    border-bottom: 3px solid black; /* Adjust color and thickness as needed */
+    width: 70%;
+    margin:40px 40px ;
+}
+
+
+
+/* ---- END ------ CSS code My skills page   */
+
+
+
+
+/* ---- start ------ CSS code My Experiances page   */
+
+
+.container {
+width: 90%;
+text-align: center;
+background-color: #f0f0f0 ;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+padding: 20px;
+margin: auto;
+width: 80%;
+}
+
+.project-1 {
+width: 400px;
+height: 140px;
+border: 10px solid rgba(123, 120, 120, 0.676);
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+box-shadow: ;
+margin: 20px;
+padding: 10px;
+overflow: hidden;
+}
+
+.container .start-date {
+    text-align: left;
+    font-size: 12px;
+    margin-top: 0;
+}
+.container .end-date {
+    text-align: right;
+    font-size: 12px;
+}
+
+.container .position {
+    margin-top: 0;
+    font-size: 12px;
+    color: chocolate;
+    text-align: left;
+}
+
+.container p {
+    font-size: 9px;
+    text-align: left;
+}
+.city {
+    color: blue;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+
+
+
+/* ---- start ------ CSS code My Experiances page   */
+
+
 
 @media(min-width:950px) and (max-width:1150px){
 
