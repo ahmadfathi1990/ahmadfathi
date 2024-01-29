@@ -470,6 +470,15 @@ border: 10px solid rgb(43, 48, 78)
         margin-left: 10px;
         margin-right: 5px;
     }
+	header .head-icons a{
+ font-size: 9px;
+ font-weight:500;
+}
+.site-name {
+font-size: o.8em;
+letter-spacing: 1.5px;
+}
+
     .my-name {
         font-size: 12px;
         margin-top: 10px;
