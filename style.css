@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
+
+/*--------------------------------------------------General-------------------------------------------------------------------------- */
 * {
     font-family: 'Poppins', sans-serif;
     margin: 0;
@@ -9,37 +11,90 @@
 }
 
 body {
-    background-color: rgba(148, 154, 154, 0.763);
+    background-color:rgb(43, 48, 78);
 }
 
 header {
-    background-color: rgba(109, 109, 109, 0.683);
+    background-color:rgb(255, 255, 255);
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 0 20px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 9999;
 }
 
-.logo {
-    height: 40px;
-    width: 40px;
-    margin-left: 20px;
-    margin-right: 10px;
+.head-icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.head-icons a {
+    color: #101010;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 800;
+    margin-right: 30px;
+    transition: all 0.7s ease;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
+.head-icons a:hover {
+    transform: scale(1.2);
+    color:rgb(245, 128, 0);
+}
 .site-name {
     text-decoration: none;
-    color: #ffffff;
+    color: #101010;
     text-transform: uppercase;
     font-weight: 800;
     font-size: 1.5em;
+    margin-left: 30px;
+    letter-spacing: 3px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
+
+
+
+/* Your existing CSS styles here */
+
+footer {
+    background-color: #ffffff;
+    padding: 20px;
+    text-align: center;
+}
+.fa-brands:hover,
+.fa-regular:hover,
+.fa-solid:hover{
+    transition: 0.7s ease-in-out;
+    transform: scale(1.2);
+    cursor: pointer;
+}
+.fa-regular:hover {
+
+}
+
+.copy-rights {
+    color: #000000;
+    font-size: 15px;
+    font-weight: 600;
+    padding-top: 20px;
+    
+}
+
+
+/*--------------------------------------------------General-------------------------------------------------------------------------- */
+
+
+/*--------------------------------------------------Index page (start)-------------------------------------------------------------------------- */
 
 .main-card {
     width: 35%;
     margin: auto;
     text-align: center;
-    background-color: #f0f0f0 ;
+    background-color: #f0f0f0 -1 ;
     padding: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
     margin-top: 35px;
@@ -48,38 +103,43 @@ header {
 
 .main-card:hover {
     transform: scale(1.05);
-    background-color: #f0f0f065;
+    background-color:rgb(53, 61, 107);
 }
 
-.name-img {
+.name-img {                      /* Div cotain the image and the name*/
     width: 80%;
     margin: auto;
     align-items: center;
 }
 
 .my-name {
-    font-size: 25px;
+    color: #f0f0f0;
+    font-size: 30px;
     margin-top: 10px;
     text-transform: uppercase;
+    letter-spacing: 2px;
 }
 
 img.my-image {
     width: 200px;
-    border: 2px solid #0b34ffa3;
+    border: 4px solid rgb(245, 128, 0);
     border-radius: 50%;
 }
 
 span {
-    color: rgba(0, 0, 255, 0.662);
-    font-size: 30px;
+    color:rgb(245, 128, 0);
+    font-size: 32px;
+    margin-left: 20px;
 }
 
 h2 {
+    color: #f0f0f0;
     font-size: 16px;
     margin-bottom: 10px;
 }
 
 p {
+    color: #f0f0f0;
     font-size: 12px;
 }
 
@@ -88,9 +148,9 @@ p {
 }
 
 .c-v,
-.exp {
+.exp {                                     /* the tow buttons*/
     color: #f0f0f0;
-    background-color: rgba(0, 0, 255, 0.699);
+    background-color:rgb(245, 128, 0);
     text-decoration: none;
     font-size: 0.8em;
     font-weight: 600;
@@ -104,11 +164,12 @@ p {
 
 .c-v:hover,
 .exp:hover {
-    background-color: rgb(0, 0, 255);
+    background-color:white;
+    color: rgb(214, 121, 8);
     transform: scale(1.1);
 }
 
-.icons {
+.icons {                                                    /*div contain social media icons*/
     margin-top: 20px;
     display: flex;
     justify-content: center;
@@ -134,8 +195,12 @@ p {
 }
 
 
+/*--------------------------------------------------Index page (End)-------------------------------------------------------------------------- */
 
-/* --- start -----  CSS code My skills page   */
+
+
+/* --------------------------- start -----  CSS code My skills page -------------------------------------------------------------  */
+
 
 .title{
     display: flex;
@@ -146,11 +211,20 @@ p {
 
 .title-name {
      
-    color: rgba(0, 0, 255, 0.614);
+    color:rgb(255, 255, 255);
     font-size: 35px;
-    margin-top: 40px;
+    margin-top: 70px;
     text-transform: uppercase;
     font-weight: bold;
+    letter-spacing: 3px;
+    border: 2px solid orange;
+    border-radius: 10px;
+    padding-right: 15px;
+}
+
+.s-letter {
+    color: rgb(244, 137, 2);
+    font-size: 40px;
 }
 
 .soft-skills {
@@ -164,6 +238,7 @@ p {
     padding: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
     margin-top: 35px;
+    margin-bottom: 40px;
     transition: 0.7s ease;
 }
 
@@ -177,44 +252,36 @@ p {
 .second-skill ,
 .third-skill ,
 .fourth-skill {
+    color: #000000;
     width: 400px;
     height: 400px;
     background-color: #f0f0f0;
     margin-right: 60px;
     box-shadow: 0 4px 8px rgba(91, 91, 96, 0.662);
-    margin-bottom: 30px;
+    margin: auto;
+    margin-bottom: 40px;
     transition: all 0.7s ease;
 }
 
-.soft-skills {
-    margin-bottom: 40px;
-}
-.first-skill:hover {
-    transform: scale(1.1);
-    cursor: pointer;
-    background-color: rgba(0, 0, 255, 0.486);
-    color: #f0f0f0;
-}
-.second-skill:hover {
-    transform: scale(1.1);
-    cursor: pointer;
-    background-color: rgba(0, 0, 255, 0.486);
-    color: #f0f0f0;
-}
-.third-skill:hover {
-    transform: scale(1.1);
-    cursor: pointer;
-    background-color: rgba(0, 0, 255, 0.486);
-    color: #f0f0f0;
-}
-.fourth-skill:hover {
-    transform: scale(1.1);
-    cursor: pointer;
-    background-color: rgba(0, 0, 255, 0.486);
-    color: #f0f0f0;
+.skill-drcrip {
+    color: #000000;
+    font-weight: 500;
+    padding: 20px;
+    text-align: left;
 }
 
-.first-skill ,
+.first-skill:hover,
+.second-skill:hover,
+.third-skill:hover,
+.fourth-skill:hover {
+    color: #f0f0f0;
+    transform: scale(1.1);
+    cursor: pointer;
+    background-color: cornflowerblue;
+    color: #ffffff;
+    font-weight: bold;
+}
+
 .second-skill ,
 .third-skill ,
 .fourth-skill,  p {
@@ -224,19 +291,17 @@ font-size: 10px;
 .first-skill p {
     font-size: 9px;
 }
-.skill-drcrip {
-    padding: 20px;
-    text-align: left;
-}
+
 .horizontal-line {
 
-    border-bottom: 3px solid black; /* Adjust color and thickness as needed */
+    border-bottom: 3px solid rgba(23, 21, 21, 0.5); 
     width: 70%;
     margin: auto;
 }
 
 .hard-skills {
     display: flex;
+    justify-content: space-between;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
@@ -249,10 +314,12 @@ font-size: 10px;
 .excel,
 .powerpoint,
 .zoho,
-.googlesheet {
+.googlesheet,
+.html,
+.css {
     width: 80%;
     margin: auto;
-    background-color: rgba(244, 244, 244, 0.826) ;
+    /*background-color: rgba(244, 244, 244, 0.826) ;*/
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
     margin-top: 40px;
     display: flex;
@@ -267,13 +334,8 @@ font-size: 10px;
     height: 60px;
     margin: 20px 20px 20px 20px ;
 }
-.googlesheet{
+.css{
     margin-bottom: 40px;
-}
-p {
-    white-space: nowrap;
-    overflow: visible;
-    text-overflow: ellipsis;
 }
 
 .excel p {
@@ -301,107 +363,96 @@ p {
     padding: 5px;
     margin-right: 20px;
 }
-.excel:hover{
+.html {
+    text-align: left;
+    font-size: 10px;
+    padding: 5px;
+}
+.css {
+    text-align: left;
+    font-size: 10px;
+    padding: 5px;
+}
+
+.excel:hover,
+.powerpoint:hover,
+.zoho:hover,
+.googlesheet:hover,
+.html:hover,
+.css:hover
+{
     transform: scale(1.1);
     cursor: pointer;
-    background-color: rgba(0, 0, 255, 0.486);
+    background-color: cornflowerblue;
     color: #f0f0f0;
 }
-.powerpoint:hover{
-    transform: scale(1.1);
-    cursor: pointer;
-    background-color: rgba(0, 0, 255, 0.486);
-    color: #f0f0f0;
-}
-.zoho:hover{
-    transform: scale(1.1);
-    cursor: pointer;
-    background-color: rgba(0, 0, 255, 0.486);
-    color: #f0f0f0;
-}
-.googlesheet:hover{
-    transform: scale(1.1);
-    cursor: pointer;
-    background-color: rgba(0, 0, 255, 0.486);
-    color: #f0f0f0;
-}
+
 
 .hori-2 {
     display: flex;
     justify-content: center;
 }
 .horizontal-line2 {
-    border-bottom: 3px solid black; /* Adjust color and thickness as needed */
+    border-bottom: 3px solid rgba(23, 21, 21, 0.5); ; /* Adjust color and thickness as needed */
     width: 70%;
     margin:40px 40px ;
 }
 
 
 
+
 /* ---- END ------ CSS code My skills page   */
 
 
+    /*   ---------------------------------------------------------------------------
 
 
 /* ---- start ------ CSS code My Experiances page   */
-
 
 .container {
-width: 90%;
-text-align: center;
-background-color: #f0f0f0 ;
-box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
-display: flex;
-flex-wrap: wrap;
-justify-content: center;
-align-items: center;
-padding: 20px;
-margin: auto;
-width: 80%;
+    display: flex;
+    margin-left: 100px;
+    margin-right: 100px;
+    align-items: center;
+    overflow: visible;
+    width: 80%;
+    padding: 40px 20px;
 }
 
-.project-1 {
-width: 400px;
-height: 140px;
-border: 10px solid rgba(123, 120, 120, 0.676);
-box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
-box-shadow: ;
-margin: 20px;
-padding: 10px;
-overflow: hidden;
+.project-img {
+    border: 10px solid rgb(235, 235, 235);
+    margin-right: 50px;
+    margin-left: 100px;
+    width: 300px;
+    height: 350px;
+    position: relative;
+
+}
+.pro-img {
+width: 100%;
+height: 100%;
+position: absolute;
+top: -30px;
+left: -30px;
+border: 10px solid rgb(43, 48, 78)
 }
 
-.container .start-date {
-    text-align: left;
-    font-size: 12px;
-    margin-top: 0;
+.date {
+    font-size: 15px;
+    font-weight: 700;
+    color: rgb(238, 242, 246);
 }
-.container .end-date {
-    text-align: right;
-    font-size: 12px;
-}
-
-.container .position {
-    margin-top: 0;
-    font-size: 12px;
-    color: chocolate;
-    text-align: left;
-}
-
-.container p {
-    font-size: 9px;
-    text-align: left;
-}
-.city {
-    color: blue;
-    font-weight: bold;
-    font-size: 12px;
+.position {
+    font-size: 25px;
+    margin-top: 10px;
+    font-weight: 700;
+    color:rgb(255, 255, 255);
 }
 
 
 
 
-/* ---- start ------ CSS code My Experiances page   */
+/* ---- END ------ CSS code My Experiances page   */
 
 
 
